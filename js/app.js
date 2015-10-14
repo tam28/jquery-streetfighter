@@ -24,9 +24,16 @@ $(document).ready(function(){
         $('.ryu-ready').show();
     })
 
-    $( ".ryu-cool" ).keydown(function() {
-  alert( "Handler for .keydown() called." );
-});
+    /*.keypress(function(event) {
+       var keycode = (event.keyCode ? event.keyCode : event.which);
+       if(keycode == '88'){
+       alert('You pressed X');  
+    });*/
+    
+    /* $('.ryu').on('keydown', function() {
+      ('.ryu-ready').hide();
+  $('.ryu-cool').show();
+});*/
 
 });
 
